@@ -1,0 +1,9 @@
+//for (m in ManualTask.all){
+//	var names = new E!Sheet(Name=m.name);
+//}
+ManualTask.all.name.println();
+ManualTask.all.name.includes("Search hotel room").println();
+// file imported.eol
+// file imported.eol
+
+

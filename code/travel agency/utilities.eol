@@ -1,0 +1,3 @@
+
+
+operation useful() { "This statement will be ignored".println(); }

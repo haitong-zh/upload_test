@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ASCII"?>
+<bpmn:Definitions xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL-XMI" id="_-hVuoNjeEeuX8_oW4D5Y2A">
+  <rootElements xsi:type="bpmn:Process" id="_-hTSYNjeEeuX8_oW4D5Y2A" name="Mon processus">
+    <flowElements xsi:type="bpmn:StartEvent" id="_R3V6ANjfEeuX8_oW4D5Y2A" name="D&#xe9;but" outgoing="_0clh4JdeEe6hm6MEAb9idg">
+      <eventDefinitions xsi:type="bpmn:MessageEventDefinition" id="_SejrANjfEeuX8_oW4D5Y2A"/>
+    </flowElements>
+    <flowElements xsi:type="bpmn:ParallelGateway" id="_zzXlwJdeEe6hm6MEAb9idg" incoming="_0clh4JdeEe6hm6MEAb9idg"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_0clh4JdeEe6hm6MEAb9idg" targetRef="_zzXlwJdeEe6hm6MEAb9idg" sourceRef="_R3V6ANjfEeuX8_oW4D5Y2A"/>
+    <flowElements xsi:type="bpmn:Task" id="_2a8sAJdeEe6hm6MEAb9idg" name="1523"/>
+    <laneSets id="_EjPmsNjfEeuX8_oW4D5Y2A">
+      <lanes id="_EjQ00NjfEeuX8_oW4D5Y2A" flowNodeRefs="_R3V6ANjfEeuX8_oW4D5Y2A _zzXlwJdeEe6hm6MEAb9idg _2a8sAJdeEe6hm6MEAb9idg"/>
+    </laneSets>
+  </rootElements>
+  <rootElements xsi:type="bpmn:Collaboration" id="_I6fTwNjfEeuX8_oW4D5Y2A" name="Ma collaboration">
+    <participants id="_PnfXQNjfEeuX8_oW4D5Y2A" name="Participant #1" processRef="_-hTSYNjeEeuX8_oW4D5Y2A"/>
+  </rootElements>
+</bpmn:Definitions>
